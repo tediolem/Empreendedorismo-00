@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Protocolo.Nerd</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+    body{
+        background: var(--cinza-claro);
+    }
+
+    body {
+    margin: 0px;
+    background: linear-gradient(-45deg, #000000, #474646, #858585, #474646, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+    
+        50% {
+            background-position: 100% 50%;
+        }
+    
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .card__botoes--voltar {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    .botoes__ancora--voltar {
+        background-color: var(--laranja);
+        padding: 1em 2.2em;
+        color: var(--branco);
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 10px
+    }
+
+
+    .card__pagina1 {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    }
+
+    .card__descrição--pg1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    }
+
+    .descrição__texto--pg1 {
+    font-size: 20px;
+    }
+
+    .descrição__titulo--pg1 {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 25px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="card__botoes--voltar">
+        <a href="index.html" class="botoes__ancora--voltar">Voltar...</a>
+    </div>
+
+        <div class="card__pagina1">
+          <div class="card__descrição--pg1">
+            <div class="descrição">
+              <h2 class="descrição__titulo--pg1">Somos a Electronic Weste</h2>
+              <p class="descrição__texto--pg1">
+                A Electronic Weste é uma organização que surgiu da necessidade urgente de desmistificar o lixo eletrônico e promover a conscientização sobre seu impacto ambiental e social. Através de um trabalho incansável, a Electronic Weste se dedica a espalhar conhecimento sobre esse tema crucial, educando a sociedade sobre as melhores práticas de descarte e incentivando a responsabilidade individual e coletiva.
+              </p>
+              <p class="descrição__texto--pg1">A Electronic Weste acredita que a mudança começa com a informação. Ao oferecer conhecimento e ferramentas para a tomada de decisão consciente, a organização contribui para a construção de um futuro mais sustentável, livre dos impactos negativos do lixo eletrônico.
+              </p>
+            </div>
+        </div>
+</body>
+</html>
