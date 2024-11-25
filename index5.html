@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Protocolo.Nerd</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+    body{
+        background: var(--cinza-claro);
+    }
+
+    body {
+    margin: 0px;
+    background: linear-gradient(-45deg, #000000, #474646, #858585, #474646, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+    
+        50% {
+            background-position: 100% 50%;
+        }
+    
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .card__botoes--voltar {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+
+    .botoes__ancora--voltar {
+        background-color: var(--laranja);
+        padding: 1em 2.2em;
+        color: var(--branco);
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 10px
+    }
+
+
+    .card__pagina5 {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    }
+
+    .card__descrição--pg5 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    }
+
+    .descrição__texto--pg5 {
+    font-size: 20px;
+    }
+
+    .descrição__titulo--pg5 {
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 25px;
+    }
+
+    hr {
+        margin: 50px;
+    }    
+    
+    </style>
+</head>
+<body>
+    <div class="card__botoes--voltar">
+        <a href="index.html" class="botoes__ancora--voltar">Voltar...</a>
+    </div>
+
+    <div class="card__pagina5">
+        <div class="card__descrição--pg5">
+        <div class="descrição">
+            <h2 class="descrição__titulo--pg5">Criadores:</h2>
+            <hr>
+            <p class="descrição__texto--pg5">
+                Miguel Tediole: desenvolvedor do site, ajudou na criação da ideia, na criação do futuro da empresa e liderou o projeto
+            </p>
+            <hr>
+            <p class="descrição__texto--pg5">
+                Rennan Xavier: ajudou na criação da ideia e atuou na parte da formulação dos textos
+            </p>
+            <hr>
+            <p class="descrição__texto--pg5">
+                Marcos Gabriel: ajudou na ideia do desing do site e na criação do futuro da empresa
+            </p>
+            <hr>
+            <p class="descrição__texto--pg5">
+                Kauã Inácio: criação do marketing da empresa
+            </p>
+            <hr>
+        </div>
+    </div>
+</body>
+</html>
